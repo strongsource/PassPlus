@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+
+
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:text="@string/Remind"
+            android:textColor="#ffff0002"
+            android:id="@+id/readB" android:clickable="true"
+            android:layout_gravity="center_horizontal" android:layout_weight="0.63" android:ellipsize="middle"
+            android:enabled="true" android:textSize="25dp" android:typeface="sans" android:visibility="visible"
+            android:width="25dp" android:textColorHighlight="#ff001aff"/>
+    <ListView
+
+            android:id="@+id/lvPass"
+            android:layout_width="fill_parent"
+            android:layout_height="471dp"
+            android:gravity="center_horizontal"
+
+            android:textSize="24sp"
+            android:background="#ffaa94ff" android:choiceMode="singleChoice"
+            android:clickable="true"
+            android:textColor="#FFF777"
+            android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+
